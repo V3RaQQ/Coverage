@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 
 int is_white(const char c);
 void change_whites(char str[]);
@@ -11,6 +12,10 @@ int direction_correction(const int degree);
 int all_positives(const int size, const int array[]);
 int last_positive(const int size, const int array[]);
 int binary_num(const int num);
+int div_by_3(const int num);
+int same_case(const char a, const char b);
+int find_first_A(const char string[]);
+void string_to_upper(char string[]);
 
 
 int main() {
